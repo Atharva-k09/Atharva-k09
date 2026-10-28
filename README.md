@@ -80,7 +80,8 @@ Hardware design roles in high-reliability, video and FPGA electronics
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ <a href="[https://github.com/YOUR_USERNAME/YOUR_REPOSITORY](https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device)">Portable Oscilloscope and Multi-Utility Test Instrument</a>
+### ⚡ <a href="https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device" style="color:#000000; text-decoration:none;"><strong>PORTABLE MULTI-UTILITY TEST INSTRUMENT</strong></a>
+
 **`BE PROJECT` · `IN PROGRESS`**
 
 A compact, battery-powered instrument combining oscilloscope, function-generator and multimeter functionality.
@@ -92,11 +93,13 @@ A compact, battery-powered instrument combining oscilloscope, function-generator
 
 **TECH STACK**
 
+
 <p align="left">
-  <a href="[https://github.com/YOUR_USERNAME/YOUR_REPOSITORY](https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device)">
+  <a href="https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device">
     <img src="https://img.shields.io/badge/⚡_EXPLORE_PROJECT-00D9FF?style=for-the-badge&labelColor=10131C" alt="Explore Portable Test Instrument"/>
   </a>
 </p>
+
 
 ![STM32](https://img.shields.io/badge/STM32-MCU-03234B?style=flat-square)
 ![Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-MCU-6B2D91?style=flat-square)
