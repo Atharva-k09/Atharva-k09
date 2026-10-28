@@ -5,165 +5,144 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=00F5D4&center=true&vCenter=true&width=760&lines=Designing+electronics+that+actually+survive+;Space-grade+mindset%2C+student+budget+;Schematic+%E2%86%92+PCB+%E2%86%92+bring-up+%E2%86%92+debug+%E2%86%92+repeat;Currently+building+a+pocket+oscilloscope+%E2%9A%A1" alt="Typing SVG" /></a>
 
-<br/>
-
-<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a"><img src="https://img.shields.io/badge/LinkedIn-let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:atharvakalage@gmail.com"><img src="https://img.shields.io/badge/Email-hit_me_up-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/Status-open_to_hardware_roles-00F5D4?style=for-the-badge&labelColor=0d1117"/>
-
+<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a"><img src="https://img.shields.io/badge/LinkedIn-let's_connect-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:atharvakalage@gmail.com"><img src="https://img.shields.io/badge/Email-hit_me_up-D14836?style=flat&logo=gmail&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Status-open_to_hardware_roles-00F5D4?style=flat&labelColor=0d1117"/>
 </div>
 
-<br/>
 
-## ⚡ Who Am I
-
-```text
+⚡ Who Am I
 > name       : Atharva Kalage
 > role       : Final-year E&TC engineer (CGPA 9.0/10) · PCCOER, Pune 🇮🇳
 > obsessed   : reliable electronics, space-grade parts, clean PCBs
 > intern     : Hardware @ Bit Mapper Integration  (Aug 2026 → Jan 2027)
 > building   : STM32 + Pico portable scope / function gen / multimeter
 > looking 4  : hardware design roles (PCB · high-reliability · FPGA/video · robotics)
-```
+I like hardware that works on the bench, then keeps working: sensible derating, clean power, protected inputs, and tests that go past "it powers on." 🔬
+🔥 Currently
+🛠️ Building	📚 Researching	🎯 Aiming for
+Portable 3-in-1 test instrument (BE final-year project)	Space-grade & high-reliability components	Hardware design role in high-reliability / video / FPGA electronics
 
-I like hardware that **works on the bench, then keeps working**: sensible derating, clean power, protected inputs, and tests that go past "it powers on." 🔬
 
----
+🧪 Projects
+<details open>
+<summary><b>⚡ Portable Multi-Utility Test Instrument</b> · BE final-year project</summary>
 
-## 🔥 Currently
+Battery-powered test instrument combining oscilloscope, function-generator and multimeter modes.
+- Two-channel protected analog input and signal conditioning
+- ADC-based acquisition, STM32 / Raspberry Pi Pico processing, IPS display
+- Focus on input protection, measurement cursors and a compact enclosure
+Tech: STM32 · Raspberry Pi Pico · ADC · Analog signal conditioning · IPS LCD
+</details>
 
-| 🛠️ Building | 📚 Researching | 🎯 Aiming for |
-|:---:|:---:|:---:|
-| Portable 3-in-1 test instrument *(BE final-year project)* | Space-grade & high-reliability components | Hardware design role in high-reliability / video / FPGA electronics |
+<details>
+<summary><b>🛩️ STM32F405 Flight Controller PCB</b></summary>
 
----
 
-## 🧪 Featured projects
+Designed a compact flight-controller PCB, covering component selection, schematic capture and board layout. Organized the design into power, MCU/USB, sensors and motor-I/O sections, with pin-mux conflicts reviewed before routing.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Tech: STM32F405 · KiCad · PCB design · Schematic capture
+</details>
 
-### ⚡ Pocket Test Instrument
-**Oscilloscope + function generator + multimeter in one battery-powered box.**<br>
-🎓 *BE final-year project · in progress*
+<details>
+<summary><b>🔋 Sensorless BLDC Motor Controller (ESC)</b></summary>
 
-2-ch protected input → ADC → STM32 → IPS LCD. Built around **STM32 + Raspberry Pi Pico**.
 
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![ADC](https://img.shields.io/badge/ADC-signal_chain-00F5D4?style=flat-square) ![LCD](https://img.shields.io/badge/IPS_LCD-UI-9B5DE5?style=flat-square)
+Designed a three-phase motor-controller concept from scratch, including the gate-driver and MOSFET power stage, complementary PWM with hardware dead-time, back-EMF sensing and protection review.
 
-🔗 `stm32-portable-scope-multimeter` *(add link)*
+Tech: STM32 · MOSFETs · Gate drivers · PWM · BLDC control
+</details>
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b>🤖 Dual Swarm-Bot Warehouse Automation</b> · BE project</summary>
 
-### 🚁 Flight Controller PCB
-**STM32F405 board, multi-layer, compact.**
 
-Component selection → schematic → layout in **KiCad**. Multi-sheet design (power, MCU + USB, sensors, motor I/O). Pin-mux conflicts caught in review, not on the bench.
+Two ESP32 robots coordinate warehouse tasks over ESP-NOW. The system uses auction-based task allocation, A* pathfinding and a shared docking station with priority-queue auto-charging.
 
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white) ![STM32F405](https://img.shields.io/badge/STM32F405-03234B?style=flat-square) ![PCB](https://img.shields.io/badge/multi--layer-PCB-F15BB5?style=flat-square)
+Tech: ESP32 · ESP-NOW · A* · Multi-robot coordination
+</details>
 
-🔗 `stm32f405-flight-controller-pcb` *(add link)*
+<details>
+<summary><b>📡 3D LiDAR Scanner</b></summary>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 
-### 🔋 Sensorless BLDC ESC
-**Three-phase motor controller, designed from scratch.**
+Developed Raspberry Pi Pico firmware for LiDAR readout and stepper-motor control to perform 360° scanning. Point-cloud data is visualized in MATLAB and Processing.
 
-Gate drivers + MOSFET power stage, complementary PWM with hardware dead-time, back-EMF sensing, protection reviewed over multiple design-review rounds.
+Tech: Raspberry Pi Pico · LiDAR · Stepper motors · MATLAB · Processing
+</details>
 
-![Power](https://img.shields.io/badge/power_electronics-FEE440?style=flat-square&labelColor=222) ![Gate driver](https://img.shields.io/badge/gate_driver-00BBF9?style=flat-square) ![BLDC](https://img.shields.io/badge/BLDC-sensorless-00F5D4?style=flat-square)
+<details>
+<summary><b>🚗 Dynamic Wireless EV Charging</b></summary>
 
-🔗 `stm32-sensorless-bldc-esc` *(add link)*
 
-</td>
-<td width="50%" valign="top">
+Explored an in-motion wireless power-transfer concept using resonant inductive coupling, including coil geometry and performance under misalignment. The architecture secured copyright.
 
-### 🤖 Dual Swarm-Bot Warehouse
-**Two ESP32 robots that negotiate who does what.**
+Tech: Resonant inductive coupling · Power electronics
+</details>
 
-**ESP-NOW** mesh · **auction-based** task allocation · **A\*** pathfinding · shared docking station with **priority-queue auto-charging**.
+<details>
+<summary><b>👁️ Autonomous Vision-Based Pick-and-Place Robot</b></summary>
 
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) ![Robotics](https://img.shields.io/badge/robotics-multi--robot-9B5DE5?style=flat-square) ![A*](https://img.shields.io/badge/A*-pathfinding-00F5D4?style=flat-square)
 
-🔗 `esp32-swarm-warehouse-automation` *(add link)*
+Built a robotic system using a Raspberry Pi camera-vision pipeline for object detection and an ESP32 for servo-motor actuation and coordinated pick-and-place control.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Tech: Raspberry Pi 4 · ESP32 · USB camera · Computer vision · Servo motors
+</details>
 
-### 📡 3D LiDAR Scanner
-**360° scanning with LiDAR + stepper motors.**
+<details>
+<summary><b>📦 Line-Following and Pick-and-Place Robots</b></summary>
 
-Pico firmware for LiDAR readout and stepper-driver control. Point clouds visualized in **MATLAB / Processing**.
 
-![Pico](https://img.shields.io/badge/RPi_Pico-A22846?style=flat-square&logo=raspberrypi&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square) ![LiDAR](https://img.shields.io/badge/LiDAR-point_cloud-00BBF9?style=flat-square)
+Built and tested autonomous robots as part of robotics work, contributing to schematics, electronics integration, embedded firmware and functional verification.
 
-🔗 `pico-3d-lidar-scanner` *(add link)*
+Tech: Embedded systems · Robotics · Motor control
+</details>
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b>⚡ Heart-Shaped LED Pendant</b> · Personal electronics project</summary>
 
-### 🚗 Dynamic Wireless EV Charging
-**Charge while you drive: resonant inductive coil concept.**
 
-Explored coil geometry under **misalignment**. Architecture **secured a copyright** ©️
+Compact wearable LED-light concept with an ATtiny13A, multiple SMD LEDs, push-button-controlled blinking patterns, a small battery and USB-C charging.
 
-![Wireless power](https://img.shields.io/badge/wireless_power-resonant-FEE440?style=flat-square&labelColor=222) ![EV](https://img.shields.io/badge/EV-charging-00F5D4?style=flat-square) ![Copyright](https://img.shields.io/badge/copyright-secured-9B5DE5?style=flat-square)
+Tech: ATtiny13A · SMD LEDs · PWM · MCP73831 · USB-C charging
+</details>
 
-🔗 `dynamic-wireless-ev-charging` *(add link)*
+<details>
+<summary><b>🐾 Raspberry Pi Smart Pet Companion</b> · Prototype concept</summary>
 
-</td>
-</tr>
-</table>
 
-### 🧬 Signal chain of the test instrument
+Local-first companion concept using a Raspberry Pi Zero W, OLED and speaker, with planned microphone input, camera-based recognition and expressive responses.
 
-```mermaid
-flowchart LR
-    A[Probe CH1/CH2] --> B[Input protection]
-    B --> C[Signal conditioning]
-    C --> D[ADC]
-    D --> E[STM32]
-    E --> F[IPS LCD]
-    G[Battery] --> H[Power rails]
-    H --> E
-    H --> F
-    E --> I[Function generator out]
-```
+Tech: Raspberry Pi Zero W · Python/Linux · OLED · Audio · Camera
+</details>
 
----
+<details>
+<summary><b>🔌 HDMI Input Selector</b> · Hardware design concept</summary>
 
-## 🛠️ Toolbox
 
+Two-input, one-output HDMI switching concept for an extended-temperature application, with attention to signal integrity and EMI/EMC constraints.
+
+Tech: HDMI · High-speed digital interfaces · Signal integrity
+</details>
+
+🛠️ Toolbox
 <div align="center">
 
-**EDA & CAD**
+EDA & CAD
 
-![Altium](https://img.shields.io/badge/Altium-A5915F?style=for-the-badge)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
-![EasyEDA](https://img.shields.io/badge/EasyEDA-1C6BFF?style=for-the-badge)
-![Fusion 360](https://img.shields.io/badge/Fusion_360-FF6F00?style=for-the-badge)
 
-**FPGA & Simulation**
 
-![Vivado](https://img.shields.io/badge/Vivado-E21F26?style=for-the-badge)
-![Vitis](https://img.shields.io/badge/Vitis-E21F26?style=for-the-badge)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge)
-![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge)
 
-**Boards & Code**
+FPGA & Simulation
 
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Raspberry Pi Pico](https://img.shields.io/badge/RPi_Pico-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+
+
+Boards & Code
+
+
+
+
 
 </div>
 
@@ -171,85 +150,49 @@ flowchart LR
 <summary><b>📖 Full skill breakdown (click to expand)</b></summary>
 <br>
 
-| Area | What I do |
-|---|---|
-| **Hardware design** | Schematic capture, multi-layer PCB layout, component selection, datasheet analysis, BOM management, derating, DFM/DFT basics |
-| **Analog & power** | LDO / buck / boost supplies, MOSFET gate drive, op-amp signal conditioning, ADC/DAC interfacing, power integrity & decoupling |
-| **High-reliability** | Space-grade & high-precision component research, package/footprint review, operating-limit review, endurance testing |
-| **Video & digital interfaces** | PAL/NTSC, HDMI, LVDS, DDR, PCIe, signal-integrity awareness, FPGA-facing signal paths |
-| **Validation & lab** | Board bring-up, fault isolation, test planning, test reports; oscilloscope, logic analyzer, DMM, bench supplies |
-| **Embedded** | STM32, ESP32, Raspberry Pi Pico, Arduino · I2C, UART, SPI · firmware-hardware integration |
+Area	What I do
+Hardware design	Schematic capture, multi-layer PCB layout, component selection, datasheet analysis, BOM management, derating, DFM/DFT basics
+Analog & power	LDO / buck / boost supplies, MOSFET gate drive, op-amp signal conditioning, ADC/DAC interfacing, power integrity & decoupling
+High-reliability	Space-grade & high-precision component research, package/footprint review, operating-limit review, endurance testing
+Video & digital interfaces	PAL/NTSC, HDMI, LVDS, DDR, PCIe, signal-integrity awareness, FPGA-facing signal paths
+Validation & lab	Board bring-up, fault isolation, test planning, test reports; oscilloscope, logic analyzer, DMM, bench supplies
+Embedded	STM32, ESP32, Raspberry Pi Pico, Arduino · I2C, UART, SPI · firmware-hardware integration
+
 
 </details>
 
----
-
-## 💼 Experience
-
+💼 Experience
 <details open>
 <summary><b>🛰️ Hardware Intern · Bit Mapper Integration</b> &nbsp;|&nbsp; Aug 2026 – Jan 2027</summary>
 <br>
 
-- 🔌 Supporting integration & debugging of **HDMI, LVDS, DDR, PCIe**, plus **PAL/NTSC analog-video paths** and **FPGA-facing signals**
-- 🔍 Researching **space-grade & high-reliability components** from datasheets, package/footprint data and electrical specs
+- 🔌 Supporting integration & debugging of HDMI, LVDS, DDR, PCIe, plus PAL/NTSC analog-video paths and FPGA-facing signals
+- 🔍 Researching space-grade & high-reliability components from datasheets, package/footprint data and electrical specs
 - 🧩 Contributing to hardware design: circuit-level investigation, component selection, interface engineering
-- 📊 Running **high-precision characterization & endurance tests**; writing component comparisons, test records and technical reports for design reviews
-
+- 📊 Running high-precision characterization & endurance tests; writing component comparisons, test records and technical reports for design reviews
 </details>
 
 <details>
 <summary><b>🤖 Robotics Intern (Workshop Team) · RoboHawk</b> &nbsp;|&nbsp; 3 months</summary>
 <br>
 
-- Built & tested **line-following and pick-and-place robots**: schematics, electronics integration, firmware, functional verification
-- Ran **hands-on workshops** on embedded systems & robotics for students
-
+- Built & tested line-following and pick-and-place robots: schematics, electronics integration, firmware, functional verification
+- Ran hands-on workshops on embedded systems & robotics for students
 </details>
 
----
-
-## 🧭 My hardware rules
-
-```text
+🧭 My hardware rules
 01  Read the datasheet before the part hits the BOM.
 02  Protect inputs. Decouple everything.
 03  Review the schematic before you route a single trace.
 04  "It powers on" is not a test plan.
 05  If it isn't documented, it doesn't exist.
-```
+🎓 Education & certs
+🎓 B.E. Electronics & Telecommunication · PCCOER, Ravet, Pune · Expected 2027 · CGPA 9.0/10
 
----
-
-## 🎓 Education & certs
-
-🎓 **B.E. Electronics & Telecommunication** · PCCOER, Ravet, Pune · Expected 2027 · **CGPA 9.0/10**
-
-🏅 Altium Education: PCB Design &nbsp;·&nbsp; MathWorks: MATLAB Onramp &nbsp;·&nbsp; IIT Bombay (Spoken Tutorial): eSIM Training
-
----
-
-## 📈 GitHub stats
-
+🏅 Altium Education: PCB Design  ·  MathWorks: MATLAB Onramp  ·  IIT Bombay (Spoken Tutorial): eSIM Training
+📫 Let's build something
+Hiring for PCB design, high-reliability electronics, video/FPGA interfaces or robotics hardware? Or just want to nerd out over gate-drive layouts?
 <div align="center">
-
-<!-- Replace YOUR_USERNAME with your GitHub username -->
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-
-</div>
-
----
-
-## 📫 Let's build something
-
-Hiring for **PCB design, high-reliability electronics, video/FPGA interfaces or robotics hardware**? Or just want to nerd out over gate-drive layouts?
-
-<div align="center">
-
-<a href="mailto:atharvakalage@gmail.com"><img src="https://img.shields.io/badge/📧_atharvakalage@gmail.com-0d1117?style=for-the-badge"/></a>
-<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a"><img src="https://img.shields.io/badge/💼_LinkedIn-0d1117?style=for-the-badge"/></a>
-
-<br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer"/>
 
