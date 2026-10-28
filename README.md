@@ -3,7 +3,14 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Atharva%20Kalage&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Hardware%20Engineer%20%E2%80%A2%20PCBs%20%E2%80%A2%20FPGA%20%E2%80%A2%20Robotics&descSize=20&descAlignY=60" width="100%" alt="Header"/>
+<!-- ============ SCROLLING TAGLINES ============ -->
+<div align="center">
 
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=00F5D4&center=true&vCenter=true&width=850&height=100&lines=Designing+electronics+that+actually+survive;PCB+Design+%7C+FPGA+%7C+Embedded+Systems;Schematic+%E2%86%92+PCB+%E2%86%92+Bring-up+%E2%86%92+Debug;Space-grade+mindset%2C+budget+friendly;Building+a+pocket+oscilloscope+%E2%9A%A1;From+datasheets+to+working+hardware" alt="Scrolling hardware engineering taglines"/>
+</a>
+
+</div>
 <a href="https://www.linkedin.com/in/atharva-kalage-01692a28a">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
@@ -60,85 +67,94 @@ Hardware design roles in high-reliability, video and FPGA electronics
 
 ---
 
-## 🧪 Projects
+
+## 🧪 Featured Projects
+
+<p align="center">
+  <samp>HARDWARE · EMBEDDED SYSTEMS · ROBOTICS · ELECTRONICS</samp>
+  <br/>
+  <img src="https://img.shields.io/badge/BUILD-REAL%20HARDWARE-00D9FF?style=for-the-badge&labelColor=10131C" />
+</p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### ⚡ Portable Multi-Utility Test Instrument
+**`BE PROJECT` · `IN PROGRESS`**
 
-**BE Final-Year Project · In Progress**
+A compact, battery-powered instrument combining oscilloscope, function-generator and multimeter functionality.
 
-Battery-powered instrument combining oscilloscope, function-generator and multimeter modes.
+- Two-channel protected analog inputs
+- Signal conditioning and ADC acquisition
+- STM32 / Raspberry Pi Pico exploration
+- IPS waveform display and measurement cursors
 
-- Two-channel protected analog input and signal conditioning
-- ADC-based acquisition with STM32 / Raspberry Pi Pico
-- IPS display, measurement cursors and compact enclosure
+**TECH STACK**
 
-**Tech stack**
-
-<img src="https://img.shields.io/badge/STM32-MCU-03234B?style=flat"/>
-<img src="https://img.shields.io/badge/Pico-MCU-6B2D91?style=flat"/>
-<img src="https://img.shields.io/badge/ADC-Acquisition-0D9488?style=flat"/>
-<img src="https://img.shields.io/badge/Analog-Signal%20Conditioning-2563EB?style=flat"/>
+![STM32](https://img.shields.io/badge/STM32-MCU-03234B?style=flat-square)
+![Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-MCU-6B2D91?style=flat-square)
+![ADC](https://img.shields.io/badge/ADC-Acquisition-0D9488?style=flat-square)
+![Analog](https://img.shields.io/badge/Analog-Signal%20Conditioning-2563EB?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🛩️ STM32F405 Flight Controller PCB
+**`PCB DESIGN` · `EMBEDDED HARDWARE`**
 
-Compact flight-controller PCB design covering component selection, schematic capture and board layout.
+Custom flight-controller board design focused on schematic development, component selection and pin planning.
 
-- Power, MCU and USB sections
+- MCU, USB and power sections
 - Sensor interfaces and motor I/O
-- Pin-multiplexing review before routing
+- Pin-multiplexing review
+- PCB layout preparation using KiCad
 
-**Tech stack**
+**TECH STACK**
 
-<img src="https://img.shields.io/badge/STM32F405-MCU-03234B?style=flat"/>
-<img src="https://img.shields.io/badge/KiCad-PCB%20Design-314CB6?style=flat"/>
-<img src="https://img.shields.io/badge/Schematic-Capture-0D9488?style=flat"/>
+![STM32F405](https://img.shields.io/badge/STM32F405-MCU-03234B?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-PCB%20Design-314CB6?style=flat-square)
+![Schematic](https://img.shields.io/badge/Schematic-Capture-0D9488?style=flat-square)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🔋 Sensorless BLDC Motor Controller (ESC)
+### 🔋 Sensorless BLDC Motor Controller
+**`POWER ELECTRONICS` · `MOTOR CONTROL`**
 
-Three-phase motor-controller design involving gate drive, power switching, sensing and protection.
+Three-phase ESC concept covering switching hardware, gate driving and sensorless commutation.
 
 - MOSFET-based three-phase power stage
 - Gate-driver circuitry
-- Complementary PWM with hardware dead-time
+- Complementary PWM and hardware dead-time
 - Back-EMF sensing and protection review
 
-**Tech stack**
+**TECH STACK**
 
-<img src="https://img.shields.io/badge/STM32-MCU-03234B?style=flat"/>
-<img src="https://img.shields.io/badge/MOSFETs-Power%20Stage-2563EB?style=flat"/>
-<img src="https://img.shields.io/badge/PWM-Motor%20Control-0D9488?style=flat"/>
+![STM32](https://img.shields.io/badge/STM32-MCU-03234B?style=flat-square)
+![MOSFET](https://img.shields.io/badge/MOSFET-Power%20Stage-2563EB?style=flat-square)
+![PWM](https://img.shields.io/badge/PWM-Motor%20Control-0D9488?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🤖 Dual Swarm-Bot Warehouse Automation
+**`BE PROJECT` · `MULTI-ROBOT SYSTEMS`**
 
-**BE Project**
+Two ESP32-powered robots coordinate warehouse tasks using wireless communication and distributed planning.
 
-Two ESP32 robots coordinate warehouse tasks using wireless communication and distributed task planning.
-
-- ESP-NOW communication
+- ESP-NOW robot-to-robot communication
 - Auction-based task allocation
 - A* pathfinding
-- Shared docking station and priority-queue auto-charging
+- Shared docking and priority-based auto-charging
 
-**Tech stack**
+**TECH STACK**
 
-<img src="https://img.shields.io/badge/ESP32-MCU-E7352C?style=flat"/>
-<img src="https://img.shields.io/badge/ESP--NOW-Wireless-2563EB?style=flat"/>
-<img src="https://img.shields.io/badge/A*-Pathfinding-0D9488?style=flat"/>
+![ESP32](https://img.shields.io/badge/ESP32-MCU-E7352C?style=flat-square)
+![ESP-NOW](https://img.shields.io/badge/ESP--NOW-Wireless-2563EB?style=flat-square)
+![Pathfinding](https://img.shields.io/badge/A*-Pathfinding-0D9488?style=flat-square)
 
 </td>
 </tr>
@@ -146,62 +162,78 @@ Two ESP32 robots coordinate warehouse tasks using wireless communication and dis
 <td width="50%" valign="top">
 
 ### 📡 3D LiDAR Scanner
+**`SENSING` · `DATA VISUALIZATION`**
 
-LiDAR scanning system using Pico firmware and stepper motors, with point-cloud visualization.
+A rotating LiDAR scanning system using Pico firmware and stepper-motor control to collect spatial data.
 
 - LiDAR readout and data acquisition
-- Stepper-motor control for 360° scanning
-- MATLAB and Processing visualization
+- Stepper-driven 360° scanning
+- Point-cloud visualization
+- MATLAB and Processing tools
 
-**Tech stack**
+**TECH STACK**
 
-<img src="https://img.shields.io/badge/Pico-MCU-6B2D91?style=flat"/>
-<img src="https://img.shields.io/badge/LiDAR-Sensing-0D9488?style=flat"/>
-<img src="https://img.shields.io/badge/MATLAB-Visualization-0076A8?style=flat"/>
+![Pico](https://img.shields.io/badge/Pico-MCU-6B2D91?style=flat-square)
+![LiDAR](https://img.shields.io/badge/LiDAR-Sensing-0D9488?style=flat-square)
+![MATLAB](https://img.shields.io/badge/MATLAB-Visualization-0076A8?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🚗 Dynamic Wireless EV Charging
+**`WIRELESS POWER` · `POWER ELECTRONICS`**
 
-In-motion wireless power-transfer concept using resonant inductive coupling.
+An in-motion wireless power-transfer concept based on resonant inductive coupling.
 
 - Coil geometry and alignment considerations
-- Performance under coil misalignment
+- Power-transfer behavior under misalignment
+- Wireless charging architecture
 - Architecture copyright secured
 
-**Tech stack**
+**TECH STACK**
 
-<img src="https://img.shields.io/badge/Resonant-Coupling-7C3AED?style=flat"/>
-<img src="https://img.shields.io/badge/Power-Electronics-2563EB?style=flat"/>
+![Resonant](https://img.shields.io/badge/Resonant-Inductive%20Coupling-7C3AED?style=flat-square)
+![Power](https://img.shields.io/badge/Power-Electronics-2563EB?style=flat-square)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 👁️ Autonomous Vision-Based Pick-and-Place Robot
+### 👁️ Vision-Based Pick-and-Place Robot
+**`COMPUTER VISION` · `ROBOTICS`**
 
-Camera-based object detection combined with ESP32 servo actuation for coordinated pick-and-place control.
+Camera-based object detection paired with embedded servo control for automated pick-and-place operation.
 
-**Tech stack**
+- Raspberry Pi 4 vision processing
+- Object detection using a USB camera
+- ESP32-based servo actuation
+- Vision-to-motion integration
 
-<img src="https://img.shields.io/badge/Raspberry%20Pi%204-Computing-C51A4A?style=flat"/>
-<img src="https://img.shields.io/badge/ESP32-Control-E7352C?style=flat"/>
-<img src="https://img.shields.io/badge/Computer%20Vision-Detection-2563EB?style=flat"/>
+**TECH STACK**
+
+![Pi](https://img.shields.io/badge/Raspberry%20Pi%204-Computing-C51A4A?style=flat-square)
+![ESP32](https://img.shields.io/badge/ESP32-Control-E7352C?style=flat-square)
+![Vision](https://img.shields.io/badge/Computer%20Vision-Detection-2563EB?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 📦 Line-Following and Pick-and-Place Robots
+### 📦 Line-Following & Pick-and-Place Robots
+**`ROBOTICS` · `EMBEDDED SYSTEMS`**
 
-Robotics work involving schematics, electronics integration, embedded firmware and functional verification.
+Robotics projects combining electronics integration, embedded firmware and functional verification.
 
-**Tech stack**
+- Circuit and schematic development
+- Sensor and motor integration
+- Embedded control
+- System testing and debugging
 
-<img src="https://img.shields.io/badge/Embedded-Firmware-03234B?style=flat"/>
-<img src="https://img.shields.io/badge/Robotics-Automation-0D9488?style=flat"/>
-<img src="https://img.shields.io/badge/Motor-Control-2563EB?style=flat"/>
+**TECH STACK**
+
+![Embedded](https://img.shields.io/badge/Embedded-Firmware-03234B?style=flat-square)
+![Robotics](https://img.shields.io/badge/Robotics-Automation-0D9488?style=flat-square)
+![Motor](https://img.shields.io/badge/Motor-Control-2563EB?style=flat-square)
 
 </td>
 </tr>
@@ -209,27 +241,39 @@ Robotics work involving schematics, electronics integration, embedded firmware a
 <td width="50%" valign="top">
 
 ### 💗 Heart-Shaped LED Pendant
+**`MINIATURE ELECTRONICS` · `WEARABLE DESIGN`**
 
-Compact wearable LED-light concept with button-controlled blinking, a small battery and USB-C charging.
+A compact wearable LED project combining a heart-shaped PCB, programmable blinking and USB-C charging.
 
-**Tech stack**
+- ATtiny13A microcontroller
+- Button-controlled LED patterns
+- PWM brightness control
+- MCP73831 Li-ion charging circuit
 
-<img src="https://img.shields.io/badge/ATtiny13A-MCU-03234B?style=flat"/>
-<img src="https://img.shields.io/badge/PWM-LED%20Control-7C3AED?style=flat"/>
-<img src="https://img.shields.io/badge/MCP73831-Charging-0D9488?style=flat"/>
+**TECH STACK**
+
+![ATtiny](https://img.shields.io/badge/ATtiny13A-MCU-03234B?style=flat-square)
+![PWM](https://img.shields.io/badge/PWM-LED%20Control-7C3AED?style=flat-square)
+![Charging](https://img.shields.io/badge/MCP73831-Charging-0D9488?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🐾 Raspberry Pi Smart Pet Companion
+**`LINUX` · `HUMAN–MACHINE INTERACTION`**
 
-Local-first companion prototype concept with an OLED, speaker and planned camera- and microphone-based interaction.
+A local-first companion prototype with a display and audio, planned for camera- and microphone-based interaction.
 
-**Tech stack**
+- Raspberry Pi Zero W
+- OLED expression display
+- Speaker-based audio output
+- Planned camera and microphone integration
 
-<img src="https://img.shields.io/badge/Raspberry%20Pi%20Zero%20W-Linux-C51A4A?style=flat"/>
-<img src="https://img.shields.io/badge/OLED-Display-2563EB?style=flat"/>
-<img src="https://img.shields.io/badge/Audio-Interaction-0D9488?style=flat"/>
+**TECH STACK**
+
+![Pi Zero](https://img.shields.io/badge/Raspberry%20Pi%20Zero%20W-Linux-C51A4A?style=flat-square)
+![OLED](https://img.shields.io/badge/OLED-Display-2563EB?style=flat-square)
+![Audio](https://img.shields.io/badge/Audio-Interaction-0D9488?style=flat-square)
 
 </td>
 </tr>
@@ -237,37 +281,50 @@ Local-first companion prototype concept with an OLED, speaker and planned camera
 <td width="50%" valign="top">
 
 ### 🔌 HDMI Input Selector
+**`HIGH-SPEED INTERFACES` · `SIGNAL INTEGRITY`**
 
-Two-input, one-output HDMI switching concept for extended-temperature operation.
+A two-input, one-output HDMI switching design concept targeting extended-temperature operation.
 
-- Signal integrity considerations
-- High-speed interface design
-- EMI/EMC constraints
+- High-speed video switching
+- Signal-integrity considerations
+- Interface and component evaluation
+- EMI/EMC design constraints
 
-**Tech stack**
+**TECH STACK**
 
-<img src="https://img.shields.io/badge/HDMI-Video%20Interface-2563EB?style=flat"/>
-<img src="https://img.shields.io/badge/Signal-Integrity-0D9488?style=flat"/>
+![HDMI](https://img.shields.io/badge/HDMI-Video%20Interface-2563EB?style=flat-square)
+![SI](https://img.shields.io/badge/Signal-Integrity-0D9488?style=flat-square)
+![EMC](https://img.shields.io/badge/EMI%2FEMC-Design-7C3AED?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔬 Hardware Interface & Validation
+**`PROFESSIONAL EXPERIENCE` · `HARDWARE DEBUG`**
 
-Professional hardware work involving component research, interface investigation, debugging and endurance-test documentation.
+Hardware engineering work involving component research, interface investigation, validation and test documentation.
 
-**Areas**
+- HDMI and LVDS interfaces
+- DDR and PCIe research
+- PAL/NTSC video interface investigation
+- Debugging and endurance-test documentation
 
-<img src="https://img.shields.io/badge/HDMI-Video-2563EB?style=flat"/>
-<img src="https://img.shields.io/badge/LVDS-Digital-0D9488?style=flat"/>
-<img src="https://img.shields.io/badge/DDR%20%2F%20PCIe-Interfaces-7C3AED?style=flat"/>
-<img src="https://img.shields.io/badge/PAL%20%2F%20NTSC-Analog%20Video-0369A1?style=flat"/>
+**AREAS**
+
+![HDMI](https://img.shields.io/badge/HDMI-Video-2563EB?style=flat-square)
+![LVDS](https://img.shields.io/badge/LVDS-Digital-0D9488?style=flat-square)
+![DDR PCIe](https://img.shields.io/badge/DDR%20%2F%20PCIe-Interfaces-7C3AED?style=flat-square)
+![Video](https://img.shields.io/badge/PAL%20%2F%20NTSC-Analog%20Video-0369A1?style=flat-square)
 
 </td>
 </tr>
 </table>
 
 ---
+
+<p align="center">
+  <sub>Built through schematics, datasheets, debugging and a questionable number of late nights.</sub>
+</p>
 
 ## 💼 Experience
 
