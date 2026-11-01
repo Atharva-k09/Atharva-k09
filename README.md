@@ -1,27 +1,23 @@
-
 <!-- ============ HEADER ============ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Atharva%20Kalage&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Hardware%20Engineer%20%E2%80%A2%20PCBs%20%E2%80%A2%20FPGA%20%E2%80%A2%20Robotics&descSize=20&descAlignY=60" width="100%" alt="Header"/>
-<!-- ============ SCROLLING TAGLINES ============ -->
-<div align="center">
+<img src="assets/header.svg" width="100%" alt="Atharva Kalage, Hardware Engineer: PCBs, FPGA, Robotics"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=00F5D4&center=true&vCenter=true&width=850&height=100&lines=Designing+electronics+that+actually+survive;PCB+Design+%7C+FPGA+%7C+Embedded+Systems;Schematic+%E2%86%92+PCB+%E2%86%92+Bring-up+%E2%86%92+Debug;Space-grade+mindset%2C+budget+friendly;Building+a+pocket+oscilloscope+%E2%9A%A1;From+datasheets+to+working+hardware" alt="Scrolling hardware engineering taglines"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=00F5D4&center=true&vCenter=true&width=850&height=70&lines=Designing+electronics+that+actually+survive;PCB+Design+%7C+FPGA+%7C+Embedded+Systems;Schematic+%E2%86%92+PCB+%E2%86%92+Bring-up+%E2%86%92+Debug;Space-grade+mindset%2C+budget+friendly;Building+a+pocket+oscilloscope+%E2%9A%A1;From+datasheets+to+working+hardware" alt="Scrolling hardware engineering taglines"/>
 </a>
 
-</div>
-<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:atharvakalage@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-<img src="https://img.shields.io/badge/Status-Open%20to%20Hardware%20Roles-0D9488?style=flat" alt="Open to hardware roles"/>
+<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a"><img src="https://img.shields.io/badge/LinkedIn-Say%20hi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:atharvakalage@gmail.com"><img src="https://img.shields.io/badge/Email-Drop%20a%20line-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<img src="https://komarev.com/ghpvc/?username=Atharva-k09&label=Visitors&color=00c9ae&style=for-the-badge" alt="Profile views"/>
 
 </div>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## ⚡ Who Am I
+
+Hey! I'm Atharva 👋 I turn datasheets into boards that boot, and boards into things that keep working.
 
 ```text
 Name       : Atharva Kalage
@@ -34,6 +30,8 @@ Looking for: Hardware design roles in PCB, high-reliability, FPGA/video and robo
 ```
 
 I like hardware that **works on the bench, then keeps working**: sensible derating, clean power, protected inputs, and tests that go beyond "it powers on." 🔬
+
+💬 **Ask me about:** PCB layout · STM32 bring-up · HDMI/LVDS debugging · ESC design · ESP-NOW robots
 
 ### 🔥 Currently
 
@@ -65,8 +63,7 @@ Hardware design roles in high-reliability, video and FPGA electronics
 </tr>
 </table>
 
----
-
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🧪 Featured Projects
 
@@ -80,7 +77,7 @@ Hardware design roles in high-reliability, video and FPGA electronics
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ <a href="https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device" style="color:#000000; text-decoration:none;"><strong>PORTABLE MULTI-UTILITY TEST INSTRUMENT</strong></a>
+### ⚡ <a href="https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device"><strong>Portable Multi-Utility Test Instrument</strong></a>
 
 **`BE PROJECT` · `IN PROGRESS`**
 
@@ -93,18 +90,16 @@ A compact, battery-powered instrument combining oscilloscope, function-generator
 
 **TECH STACK**
 
+![STM32](https://img.shields.io/badge/STM32-MCU-03234B?style=flat-square)
+![Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-MCU-6B2D91?style=flat-square)
+![ADC](https://img.shields.io/badge/ADC-Acquisition-0D9488?style=flat-square)
+![Analog](https://img.shields.io/badge/Analog-Signal%20Conditioning-2563EB?style=flat-square)
 
 <p align="left">
   <a href="https://github.com/Atharva-k09/Portable-Oscilloscope-and-Multi-Utility-Testing-Device">
     <img src="https://img.shields.io/badge/⚡_EXPLORE_PROJECT-00D9FF?style=for-the-badge&labelColor=10131C" alt="Explore Portable Test Instrument"/>
   </a>
 </p>
-
-
-![STM32](https://img.shields.io/badge/STM32-MCU-03234B?style=flat-square)
-![Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-MCU-6B2D91?style=flat-square)
-![ADC](https://img.shields.io/badge/ADC-Acquisition-0D9488?style=flat-square)
-![Analog](https://img.shields.io/badge/Analog-Signal%20Conditioning-2563EB?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -266,9 +261,7 @@ A local-first companion prototype with a display and audio, planned for camera- 
 ![Audio](https://img.shields.io/badge/Audio-Interaction-0D9488?style=flat-square)
 
 </td>
-
 <td width="50%" valign="top">
-
 
 ### 🔬 Hardware Interface & Validation
 **`PROFESSIONAL EXPERIENCE` · `HARDWARE DEBUG`**
@@ -291,11 +284,11 @@ Hardware engineering work involving component research, interface investigation,
 </tr>
 </table>
 
----
-
 <p align="center">
-  <sub>Built through schematics, datasheets, debugging and a questionable number of late nights.</sub>
+  <sub>Built through schematics, datasheets, debugging and a questionable number of late nights. ☕</sub>
 </p>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 💼 Experience
 
@@ -317,7 +310,7 @@ Hardware engineering work involving component research, interface investigation,
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🛠️ Toolbox
 
@@ -377,7 +370,7 @@ Hardware engineering work involving component research, interface investigation,
 
 </details>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🧭 My Hardware Rules
 
@@ -402,7 +395,7 @@ Hardware engineering work involving component research, interface investigation,
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🎓 Education & Certifications
 
@@ -431,17 +424,19 @@ Expected graduation: 2027
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 📫 Let's Build Something
 
-Hiring for **PCB design, high-reliability electronics, video/FPGA interfaces or robotics hardware**? I'm interested in practical engineering problems, careful design and hardware that survives real testing.
+Hiring for **PCB design, high-reliability electronics, video/FPGA interfaces or robotics hardware**? I'm interested in practical engineering problems, careful design and hardware that survives real testing. Or just say hi, I reply to everyone. 🙂
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:atharvakalage@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/atharva-kalage-01692a28a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:atharvakalage@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="Footer"/>
+<br/><br/>
+
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by. Let's build something together."/>
 
 </div>
