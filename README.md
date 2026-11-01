@@ -249,25 +249,6 @@ Robotics projects combining electronics integration, embedded firmware and funct
 <tr>
 <td width="50%" valign="top">
 
-### 💗 Heart-Shaped LED Pendant
-**`MINIATURE ELECTRONICS` · `WEARABLE DESIGN`**
-
-A compact wearable LED project combining a heart-shaped PCB, programmable blinking and USB-C charging.
-
-- ATtiny13A microcontroller
-- Button-controlled LED patterns
-- PWM brightness control
-- MCP73831 Li-ion charging circuit
-
-**TECH STACK**
-
-![ATtiny](https://img.shields.io/badge/ATtiny13A-MCU-03234B?style=flat-square)
-![PWM](https://img.shields.io/badge/PWM-LED%20Control-7C3AED?style=flat-square)
-![Charging](https://img.shields.io/badge/MCP73831-Charging-0D9488?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
 ### 🐾 Raspberry Pi Smart Pet Companion
 **`LINUX` · `HUMAN–MACHINE INTERACTION`**
 
@@ -285,28 +266,9 @@ A local-first companion prototype with a display and audio, planned for camera- 
 ![Audio](https://img.shields.io/badge/Audio-Interaction-0D9488?style=flat-square)
 
 </td>
-</tr>
-<tr>
+
 <td width="50%" valign="top">
 
-### 🔌 HDMI Input Selector
-**`HIGH-SPEED INTERFACES` · `SIGNAL INTEGRITY`**
-
-A two-input, one-output HDMI switching design concept targeting extended-temperature operation.
-
-- High-speed video switching
-- Signal-integrity considerations
-- Interface and component evaluation
-- EMI/EMC design constraints
-
-**TECH STACK**
-
-![HDMI](https://img.shields.io/badge/HDMI-Video%20Interface-2563EB?style=flat-square)
-![SI](https://img.shields.io/badge/Signal-Integrity-0D9488?style=flat-square)
-![EMC](https://img.shields.io/badge/EMI%2FEMC-Design-7C3AED?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
 
 ### 🔬 Hardware Interface & Validation
 **`PROFESSIONAL EXPERIENCE` · `HARDWARE DEBUG`**
